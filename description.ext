@@ -1,0 +1,30 @@
+class CfgRadio
+{
+  sounds[] = {};
+  class AtisTest4
+  {
+    name = "atis4";
+    sound[] = {"\sounds\atis-sample4.ogg", db-100, 1.0};
+    title = "This is Tanoa arrival information Alpha. Main landing runways: 17 and 35. Winds: 200 degrees, 7 knots. Visibility 10 km. Scattered clouds: 500m. Broken: 800m. No significant change. Contact Approach and arrival call-sign only. End of information Alpha.";
+  };
+
+  class AtisTestStGeorge
+  {
+    name = "atisStGeorge";
+    sound[] = {"\sounds\atis-sample-stgeorge.ogg", db-100, 1.0};
+    title = "This is Saint-George arrival information Kilo. Main landing runways: 13 and 31. Winds 190 degrees, 4 knots. Visibility: 8 kilometres. Scattered clouds: 550 meters. Broken: 800 meters. No significant change. Contact Approach and arrival call-sign only. End of information Kilo.";
+  };
+
+  /*
+  */
+};
+
+/*
+Play and record the base audio track
+In Audacity, Select Effects, Equalization, then the Walkie Talkie preset.
+Add a new track and generate Pink or Brownian noise at around .1-.2 level
+Merge the tracks
+Export as MP3, but select a LOW quality such as 16 or 24 kbps
+Accept the change to sample rate
+
+*/
