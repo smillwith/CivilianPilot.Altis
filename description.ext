@@ -28,3 +28,577 @@ Export as MP3, but select a LOW quality such as 16 or 24 kbps
 Accept the change to sample rate
 
 */
+
+class CfgSounds
+{
+  class AtisVO_no
+  {
+  name = "AtisVO_no";
+  sound[] = {"sounds\atis\no.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_and
+  {
+  name = "AtisVO_and";
+  sound[] = {"sounds\atis\and.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_to
+  {
+  name = "AtisVO_to";
+  sound[] = {"sounds\atis\to.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_for
+  {
+  name = "AtisVO_for";
+  sound[] = {"sounds\atis\for.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_on
+  {
+  name = "AtisVO_on";
+  sound[] = {"sounds\atis\on.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_only
+  {
+  name = "AtisVO_only";
+  sound[] = {"sounds\atis\only.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_runway
+  {
+  name = "AtisVO_runway";
+  sound[] = {"sounds\atis\runway.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_kilometer
+  {
+  name = "AtisVO_kilometer";
+  sound[] = {"sounds\atis\kilometer.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_kilometers
+  {
+  name = "AtisVO_kilometers";
+  sound[] = {"sounds\atis\kilometers.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_meter
+  {
+  name = "AtisVO_meter";
+  sound[] = {"sounds\atis\meter.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_meters
+  {
+  name = "AtisVO_meters";
+  sound[] = {"sounds\atis\meters.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_knot
+  {
+  name = "AtisVO_knot";
+  sound[] = {"sounds\atis\knot.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_knots
+  {
+  name = "AtisVO_knots";
+  sound[] = {"sounds\atis\knots.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_degree
+  {
+  name = "AtisVO_degree";
+  sound[] = {"sounds\atis\degree.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_degrees
+  {
+  name = "AtisVO_degrees";
+  sound[] = {"sounds\atis\degrees.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_flight_level
+  {
+  name = "AtisVO_flight_level";
+  sound[] = {"sounds\atis\flight_level.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_descend
+  {
+  name = "AtisVO_descend";
+  sound[] = {"sounds\atis\descend.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_ascend
+  {
+  name = "AtisVO_ascend";
+  sound[] = {"sounds\atis\ascend.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_approach
+  {
+  name = "AtisVO_approach";
+  sound[] = {"sounds\atis\approach.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_ground
+  {
+  name = "AtisVO_ground";
+  sound[] = {"sounds\atis\ground.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_tower
+  {
+  name = "AtisVO_tower";
+  sound[] = {"sounds\atis\tower.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_taxi
+  {
+  name = "AtisVO_taxi";
+  sound[] = {"sounds\atis\taxi.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_taxi_and_hold_short
+  {
+  name = "AtisVO_taxi_and_hold_short";
+  sound[] = {"sounds\atis\taxi_and_hold_short.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_hold_short
+  {
+  name = "AtisVO_hold_short";
+  sound[] = {"sounds\atis\hold_short.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_request
+  {
+  name = "AtisVO_request";
+  sound[] = {"sounds\atis\request.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_traffic
+  {
+  name = "AtisVO_traffic";
+  sound[] = {"sounds\atis\traffic.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_visual
+  {
+  name = "AtisVO_visual";
+  sound[] = {"sounds\atis\visual.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_visibility
+  {
+  name = "AtisVO_visibility";
+  sound[] = {"sounds\atis\visibility.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_cleared
+  {
+  name = "AtisVO_cleared";
+  sound[] = {"sounds\atis\cleared.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_takeoff
+  {
+  name = "AtisVO_takeoff";
+  sound[] = {"sounds\atis\takeoff.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_landing
+  {
+  name = "AtisVO_landing";
+  sound[] = {"sounds\atis\landing.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_callsign
+  {
+  name = "AtisVO_callsign";
+  sound[] = {"sounds\atis\callsign.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_conditions
+  {
+  name = "AtisVO_conditions";
+  sound[] = {"sounds\atis\conditions.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_broken
+  {
+  name = "AtisVO_broken";
+  sound[] = {"sounds\atis\broken.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_scattered
+  {
+  name = "AtisVO_scattered";
+  sound[] = {"sounds\atis\scattered.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_cumulonimbus_detected
+  {
+  name = "AtisVO_cumulonimbus_detected";
+  sound[] = {"sounds\atis\cumulonimbus_detected.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_direct
+  {
+  name = "AtisVO_direct";
+  sound[] = {"sounds\atis\direct.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_immediate
+  {
+  name = "AtisVO_immediate";
+  sound[] = {"sounds\atis\immediate.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_departure
+  {
+  name = "AtisVO_departure";
+  sound[] = {"sounds\atis\departure.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_immediate_departure
+  {
+  name = "AtisVO_immediate_departure";
+  sound[] = {"sounds\atis\immediate_departure.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_turn
+  {
+  name = "AtisVO_turn";
+  sound[] = {"sounds\atis\turn.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_turn_to
+  {
+  name = "AtisVO_turn_to";
+  sound[] = {"sounds\atis\turn_to.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_this_is
+  {
+  name = "AtisVO_this_is";
+  sound[] = {"sounds\atis\this_is.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_information
+  {
+  name = "AtisVO_information";
+  sound[] = {"sounds\atis\information.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_main_landing_runway
+  {
+  name = "AtisVO_main_landing_runway";
+  sound[] = {"sounds\atis\main_landing_runway.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_altis
+  {
+  name = "AtisVO_altis";
+  sound[] = {"sounds\atis\altis.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_abdera
+  {
+  name = "AtisVO_abdera";
+  sound[] = {"sounds\atis\abdera.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_almyra
+  {
+  name = "AtisVO_almyra";
+  sound[] = {"sounds\atis\almyra.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_aac
+  {
+  name = "AtisVO_aac";
+  sound[] = {"sounds\atis\aac.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_molos
+  {
+  name = "AtisVO_molos";
+  sound[] = {"sounds\atis\molos.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_selakano
+  {
+  name = "AtisVO_selakano";
+  sound[] = {"sounds\atis\selakano.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_tanoa
+  {
+  name = "AtisVO_tanoa";
+  sound[] = {"sounds\atis\tanoa.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_la_rochelle
+  {
+  name = "AtisVO_la_rochelle";
+  sound[] = {"sounds\atis\la_rochelle.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_baja
+  {
+  name = "AtisVO_baja";
+  sound[] = {"sounds\atis\baja.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_saint_george
+  {
+  name = "AtisVO_saint_george";
+  sound[] = {"sounds\atis\saint_george.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_tuvanaka
+  {
+  name = "AtisVO_tuvanaka";
+  sound[] = {"sounds\atis\tuvanaka.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_zero
+  {
+  name = "AtisVO_zero";
+  sound[] = {"sounds\atis\zero.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_one
+  {
+  name = "AtisVO_one";
+  sound[] = {"sounds\atis\one.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_two
+  {
+  name = "AtisVO_two";
+  sound[] = {"sounds\atis\two.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_three
+  {
+  name = "AtisVO_three";
+  sound[] = {"sounds\atis\three.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_four
+  {
+  name = "AtisVO_four";
+  sound[] = {"sounds\atis\four.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_five
+  {
+  name = "AtisVO_five";
+  sound[] = {"sounds\atis\five.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_six
+  {
+  name = "AtisVO_six";
+  sound[] = {"sounds\atis\six.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_seven
+  {
+  name = "AtisVO_seven";
+  sound[] = {"sounds\atis\seven.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_eight
+  {
+  name = "AtisVO_eight";
+  sound[] = {"sounds\atis\eight.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_niner
+  {
+  name = "AtisVO_niner";
+  sound[] = {"sounds\atis\niner.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_alpha
+  {
+  name = "AtisVO_alpha";
+  sound[] = {"sounds\atis\alpha.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_bravo
+  {
+  name = "AtisVO_bravo";
+  sound[] = {"sounds\atis\bravo.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_charlie
+  {
+  name = "AtisVO_charlie";
+  sound[] = {"sounds\atis\charlie.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_delta
+  {
+  name = "AtisVO_delta";
+  sound[] = {"sounds\atis\delta.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_echo
+  {
+  name = "AtisVO_echo";
+  sound[] = {"sounds\atis\echo.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_foxtrot
+  {
+  name = "AtisVO_foxtrot";
+  sound[] = {"sounds\atis\foxtrot.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_gulf
+  {
+  name = "AtisVO_gulf";
+  sound[] = {"sounds\atis\gulf.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_hotel
+  {
+  name = "AtisVO_hotel";
+  sound[] = {"sounds\atis\hotel.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_india
+  {
+  name = "AtisVO_india";
+  sound[] = {"sounds\atis\india.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_juliet
+  {
+  name = "AtisVO_juliet";
+  sound[] = {"sounds\atis\juliet.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_kilo
+  {
+  name = "AtisVO_kilo";
+  sound[] = {"sounds\atis\kilo.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_lima
+  {
+  name = "AtisVO_lima";
+  sound[] = {"sounds\atis\lima.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_mike
+  {
+  name = "AtisVO_mike";
+  sound[] = {"sounds\atis\mike.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_november
+  {
+  name = "AtisVO_november";
+  sound[] = {"sounds\atis\november.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_oscar
+  {
+  name = "AtisVO_oscar";
+  sound[] = {"sounds\atis\oscar.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_papa
+  {
+  name = "AtisVO_papa";
+  sound[] = {"sounds\atis\papa.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_quebec
+  {
+  name = "AtisVO_quebec";
+  sound[] = {"sounds\atis\quebec.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_romeo
+  {
+  name = "AtisVO_romeo";
+  sound[] = {"sounds\atis\romeo.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_sierra
+  {
+  name = "AtisVO_sierra";
+  sound[] = {"sounds\atis\sierra.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_tango
+  {
+  name = "AtisVO_tango";
+  sound[] = {"sounds\atis\tango.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_uniform
+  {
+  name = "AtisVO_uniform";
+  sound[] = {"sounds\atis\uniform.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_victor
+  {
+  name = "AtisVO_victor";
+  sound[] = {"sounds\atis\victor.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_whiskey
+  {
+  name = "AtisVO_whiskey";
+  sound[] = {"sounds\atis\whiskey.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_x_ray
+  {
+  name = "AtisVO_x_ray";
+  sound[] = {"sounds\atis\x_ray.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_yankee
+  {
+  name = "AtisVO_yankee";
+  sound[] = {"sounds\atis\yankee.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_zulu
+  {
+  name = "AtisVO_zulu";
+  sound[] = {"sounds\atis\zulu.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_heavy
+  {
+  name = "AtisVO_heavy";
+  sound[] = {"sounds\atis\heavy.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_rain
+  {
+  name = "AtisVO_rain";
+  sound[] = {"sounds\atis\rain.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_caesar
+  {
+  name = "AtisVO_caesar";
+  sound[] = {"sounds\atis\caesar.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+}

@@ -30,12 +30,29 @@ dingus_fnc_PlayerVehicleChanged = {
 --------------------------------------------------------------------------
 */
 
+dingus_fnc_ServiceMe = {
+  params ["_vehicle"];
+
+  _startingPos = getPos _vehicle;
+
+  //Enable AI
+  driver _vehicle enableAI "move";
+
+  //Come to me and wait
+  _wp = (group (driver _vehicle)) addWaypoint [position vehicle player, 3];
+  _wp setWaypointSpeed "LIMITED";
+  _wp setWaypointTimeout [20, 20, 20];
+
+  //Come back to where you started
+  _wp = (group (driver _vehicle)) addWaypoint [_startingPos, 0];
+  _wp setWaypointStatements ["true", "driver _vehicle disableAI 'move';"];
+};
+
 //Request Refuel
 dingus_fnc_requestRefuel = {
   _truck = ["CurrentFuelTruck"] call dingus_fnc_getVar;
   if (!isNil "_truck") then {
-    _wp = (group (driver _truck)) addWaypoint [position vehicle player, 3];
-    _wp setWaypointSpeed "LIMITED";
+    [_truck] call dingus_fnc_ServiceMe;
     ["Refuel request acknowledged. Please stand by..."] call dingus_fnc_Alert;
   } else {
     systemChat "Can't set waypoint: no truck."
@@ -55,8 +72,7 @@ dingus_fnc_canRefuel = {
 dingus_fnc_requestRepair = {
   _truck = ["CurrentRepairTruck"] call dingus_fnc_getVar;
   if (!isNil "_truck") then {
-    _wp = (group (driver _truck)) addWaypoint [position vehicle player, 3];
-    _wp setWaypointSpeed "LIMITED";
+    [_truck] call dingus_fnc_ServiceMe;
     ["Repair request acknowledged. Please stand by..."] call dingus_fnc_Alert;
   } else {
     systemChat "Can't set waypoint: no truck 2."

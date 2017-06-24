@@ -59,6 +59,9 @@ dingus_fnc_initInfoStand = {
   _item addAction ["Turn Location Markers ON", {[] call dingus_fnc_ToggleLocationMarkers;}, [], 45, false, true, "", "[""TaskLocations"", ""1""] call dingus_fnc_getVar == ""0"""];
   _item addAction ["Turn Location Markers OFF", {[] call dingus_fnc_ToggleLocationMarkers;}, [], 45, false, true, "", "[""TaskLocations"", ""1""] call dingus_fnc_getVar == ""1"""];
 
+  //h2 = [] spawn {[] call dingus_fnc_spawnAI};
+  _item addAction ["Spawn more AI please.", {[] spawn {[] call dingus_fnc_spawnAI};}, [], 45, false, true, "", ""];
+
   //_item addAction ["Turn Landing Aids ON", {[] call dingus_fnc_enableLandingAids;}, [], 0.45, false, true, "", "([""HelpersVisible"", ""0""] call dingus_fnc_getVar) == ""0"""];
   //_item addAction ["Turn Landing Aids OFF", {[] call dingus_fnc_disableLandingAids;}, [], 0.45, false, true, "", "([""HelpersVisible"", ""0""] call dingus_fnc_getVar) == ""1"""];
 };

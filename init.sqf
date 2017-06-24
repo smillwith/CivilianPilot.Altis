@@ -23,6 +23,8 @@ waitUntil { scriptDone _handle };
 ["CurrentPassenger", nil] call dingus_fnc_setVar;
 ["CurrentCompanion", nil] call dingus_fnc_setVar;
 
+execVM "ai.sqf";
+execVM "atis.sqf";
 execVM "passengers.sqf";
 execVM "planeHelpers.sqf";
 
