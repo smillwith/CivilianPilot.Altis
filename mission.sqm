@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1025;
+	toggles=1;
 	class ItemIDProvider
 	{
 		nextID=289;
@@ -220,8 +220,8 @@ class Mission
 		year=2035;
 		month=4;
 		day=9;
-		hour=4;
-		minute=-17;
+		hour=6;
+		minute=-9;
 		startFogDecay=0.014;
 		forecastFogDecay=0.014;
 	};

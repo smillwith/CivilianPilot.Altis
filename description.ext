@@ -20,12 +20,13 @@ class CfgRadio
 };
 
 /*
-Play and record the base audio track
-In Audacity, Select Effects, Equalization, then the Walkie Talkie preset.
-Add a new track and generate Pink or Brownian noise at around .1-.2 level
-Merge the tracks
-Export as MP3, but select a LOW quality such as 16 or 24 kbps
-Accept the change to sample rate
+For those ^^
+1. Play and record the base audio track
+2. In Audacity, Select Effects, Equalization, then the Walkie Talkie preset.
+3. Add a new track and generate Pink or Brownian noise at around .1-.2 level
+4. Merge the tracks
+5. Export as MP3, but select a LOW quality such as 16 or 24 kbps
+6. Accept the change to sample rate
 
 */
 
@@ -600,5 +601,89 @@ class CfgSounds
   name = "AtisVO_caesar";
   sound[] = {"sounds\atis\caesar.ogg", 1, 1, 100};
   titles[] = {0, ""};
+  };
+  class AtisVO_active
+  {
+  name = "AtisVO_active";
+  sound[] = {"sounds\atis\active.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_departures
+  {
+  name = "AtisVO_departures";
+  sound[] = {"sounds\atis\departures.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_use
+  {
+  name = "AtisVO_use";
+  sound[] = {"sounds\atis\use.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_malden
+  {
+  name = "AtisVO_malden";
+  sound[] = {"sounds\atis\malden.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_pegasus
+  {
+  name = "AtisVO_pegasus";
+  sound[] = {"sounds\atis\pegasus.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_wind
+  {
+  name = "AtisVO_wind";
+  sound[] = {"sounds\atis\wind.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_winds
+  {
+  name = "AtisVO_winds";
+  sound[] = {"sounds\atis\winds.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_are
+  {
+  name = "AtisVO_are";
+  sound[] = {"sounds\atis\are.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_out
+  {
+  name = "AtisVO_out";
+  sound[] = {"sounds\atis\out.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_of
+  {
+  name = "AtisVO_of";
+  sound[] = {"sounds\atis\of.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_end
+  {
+  name = "AtisVO_end";
+  sound[] = {"sounds\atis\end.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_the
+  {
+  name = "AtisVO_the";
+  sound[] = {"sounds\atis\the.ogg", 1, 1, 100};
+  titles[] = {0, ""};
+  };
+  class AtisVO_arrival
+  {
+    name = "AtisVO_arrival";
+    sound[] = {"sounds\atis\arrival.ogg", 1, 1, 100};
+    titles[] = {0, ""};
+  };
+  class AtisVO_gusts
+  {
+    name = "AtisVO_gusts";
+    sound[] = {"sounds\atis\gusts.ogg", 1, 1, 100};
+    titles[] = {0, ""};
   };
 }
